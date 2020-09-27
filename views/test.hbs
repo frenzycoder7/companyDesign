@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+     <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+</head>
+    <body>
+
+
+         
+        {{>header}}
+        <!--------------Banner---------------->
+<div class="container-fluid z-depth-1">
+
+
+  <!--Section: Content-->
+  <section class="dark-grey-text">
+
+    <div class="row pr-lg-5">
+      <div class="col-md-7 mb-4">
+
+        <div class="view">
+          <img src="https://mdbootstrap.com/img/illustrations/graphics(4).png" class="img-fluid" alt="smaple image">
+        </div>
+
+      </div>
+      <div class="col-md-5 d-flex align-items-center">
+        <div>
+          
+          <h3 class="font-weight-bold mb-4">Material Design Blocks</h3>
+
+        	<p>Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.</p>
+
+        	<a href="" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">LogIn/Register</a>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+<!------------------/Banner----------------------->
+         <section class="host mb-5 my-5" >
+
+                <div class="container" style="border:1px solid grey;">
+                    <div class="row mt-5 mb-5">
+                        <div class="col-lg-4 mb-3">
+                            <h2 style="text-align:center; padding:10px 15px;  background-color: #26ae60 ;color:white; font-size: 22px;">Your Links</h2>
+                            <div class="card example-1 scrollbar-ripe-malinka">
+                                <div class="card-body">
+                                    <div class="mt-5">
+                                        <h2 style="text-align:center; padding:8px 15px;  background-color: #10A881 ; border:1px white;  font-size: 18px;"><a style="color:white;" href="#">homepage</a></h2>
+
+                                        <h2 style="text-align:center; padding:8px 15px;  background-color: #10A881 ; border:1px white;  font-size: 18px;"><a style="color:white;" href="#">sxr/sdfsd</a></h2>
+                                        <h2 style="text-align:center; padding:8px 15px;  background-color: #10A881 ; border:1px white;  font-size: 18px;"><a style="color:white;" href="#">sxr/sdfsd</a></h2>
+                                        <h2 style="text-align:center; padding:8px 15px;  background-color: #10A881 ; border:1px white;  font-size: 18px;"><a style="color:white;" href="#">sxr/sdfsd</a></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div>
+                                <h2 style="text-align:center; padding:10px 15px;  background-color: #26ae60 ;color:white; font-size: 22px;">Control</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 z-depth mt-3">
+                                    <h2 class="mt-3" style="text-align:center; padding:10px 15px;  background-color: #26ae60 ;color:white; font-size: 22px;">Create Repository</h2>
+                                    <label class="mt-2" for="repo">Enter your Repository name:</label>
+                                    <input class="mt-2" type="text" class="form-control" style="width: 100%; height: 20%;" id="repo" placeholder="Repository name">
+                                    <input type="submit" class="btn mt-4 mb-5 z-depth-1" style="background-color: #75DA8B;">
+                                </div>
+                                      
+                                <div class="col-lg-12">
+                                    <h2 class="mt-3" style="text-align:center; padding:10px 15px;  background-color: #26ae60 ;color:white; font-size: 22px;">Delete Repository</h2>
+                                    <label for="selectRepo">Select Repository name:</label>
+                                    <select class="custom-select mr-sm-2 " id="selectRepo">
+                                        <option selected>Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <input type="submit" class="btn mt-4 mb-5 z-depth-1" style="background-color: #75DA8B;">
+                                </div>
+                                <div class="col-lg-12">
+                                    <h2 class="mt-3" style="text-align:center; padding:10px 15px;  background-color: #26ae60 ;color:white; font-size: 22px;">Link Your Domain</h2>
+                                    <label for="selectRepo">Select Repository name:</label>
+                                    <select class="custom-select mr-sm-2 " id="selectRepo">
+                                        <option selected>Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <input class="mt-2" type="text" class="form-control" style="width: 100%;" id="repo" placeholder="eg. yourdomain.xyz"> 
+                                    <input type="submit" class="btn mt-4 mb-5 z-depth-1" style="background-color: #75DA8B;">
+                                </div>
+                            </div>
+                        
+                            </br>
+                        </div>
+                    </div>
+
+                </div>
+                 
+            </section>
+        {{>footer}}
+    <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
